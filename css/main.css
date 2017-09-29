@@ -1,0 +1,63 @@
+:root {
+  --color-primary: #570e19;
+  --color-primary-light: #ab5264;
+  --color-secondary: black;
+  --color-accent: #773e36;
+  --color-neutral-beige: #a36b67;
+  --color-whatever: #c9c0c0;
+
+  --font-primary: 'Poiret One', cursive;
+  --font-secondary: "Roboto Slab", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+button {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+p {
+  font-family: var(--font-seccondary);
+}
+
+a {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+}
+
+ul {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+ol {
+  font-family: var(--font-secondary);
+}
+
+blockquote {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+}
+
+mark {
+  background-color: white;
+}
+
+img {
+  width: 75%;
+}
+
+.content {
+  margin-top: 3em;
+}
+
+.fade {
+  background-image: linear-gradient(to top, transparent, rgba(225, 225, 225, 0), rgba(225, 225, 225, .5) 25%), url("../images/banner.jpg");
+}
