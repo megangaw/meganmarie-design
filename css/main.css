@@ -20,7 +20,7 @@ h1 {
 }
 button {
   font-family: var(--font-secondary);
-  color: var(--color-primary);
+  color: none;
 }
 
 p {
@@ -35,6 +35,7 @@ a {
 ul {
   font-family: var(--font-secondary);
   color: var(--color-primary);
+  text-decoration: none;
 }
 
 ol {
@@ -60,4 +61,51 @@ img {
 
 .fade {
   background-image: linear-gradient(to top, transparent, rgba(225, 225, 225, 0), rgba(225, 225, 225, .5) 25%), url("../images/banner.jpg");
+}
+
+nav a{
+  text-decoration: none;
+  border-left: .15em solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+a:hover {
+  background-color: var(--color-primary);
+  border-radius: .25em;
+  color: white;
+}
+
+header {
+  border-bottom: .25em solid var(--color-primary);
+}
+
+footer {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.title {
+  filter: contrast(100%) grayscale(0%);
+  border-radius: 1em;
+}
+
+.title:hover {
+  filter: contrast(100%) grayscale(100%);
+}
+
+ol a {
+    color: white;
+    text-decoration: none;
+}
+
+ol a:hover {
+  color: grey;
+}
+
+ol {
+  text-align: center left;
+}
+
+a {
+  text-decoration: none;
 }
