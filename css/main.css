@@ -7,7 +7,7 @@
   --color-whatever: #c9c0c0;
 
   --font-primary: 'Poiret One', cursive;
-  --font-secondary: "Roboto Slab", sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
 }
 
 html {
@@ -24,7 +24,7 @@ button {
 }
 
 p {
-  font-family: var(--font-seccondary);
+  font-family: var(--font-secondary);
 }
 
 a {
@@ -67,6 +67,7 @@ nav a{
   text-decoration: none;
   border-left: .15em solid var(--color-primary);
   color: var(--color-primary);
+  font-family: var(--font-secondary);
 }
 
 a:hover {
