@@ -117,3 +117,8 @@ embed {
   background-color: white;
   background: white;
 }
+
+form {
+  display: block;
+  max-width: 35em;
+}
