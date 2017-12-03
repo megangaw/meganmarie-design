@@ -1,0 +1,4 @@
+Sitemap: https://meganmarie-design.ca/sitemap.xml
+
+User-Agent: *
+Disallow: /img
