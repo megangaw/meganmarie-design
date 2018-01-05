@@ -20,7 +20,7 @@ h1 {
 }
 button {
   font-family: var(--font-secondary);
-  color: none;
+  color: white;
 }
 
 p {
@@ -121,4 +121,9 @@ embed {
 form {
   display: block;
   max-width: 35em;
+}
+
+button a:hover {
+  color: white;
+  background-color: var(--color-primary);
 }
