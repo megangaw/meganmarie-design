@@ -55,9 +55,7 @@ img {
   width: 75%;
 }
 
-.content {
-  margin-top: 3em;
-}
+
 
 .fade {
   background-image: linear-gradient(to top, transparent, rgba(225, 225, 225, 0), rgba(225, 225, 225, .5) 25%), url("../images/banner.jpg");
@@ -127,4 +125,8 @@ form {
 button a:hover {
   color: white;
   background-color: var(--color-primary);
+}
+
+.bg-color {
+  background-color: black;
 }
