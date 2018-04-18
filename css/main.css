@@ -128,3 +128,9 @@ button a:hover {
 .bg-color {
   background-color: black;
 }
+
+.aboutme {
+  text-align: center;
+  border-width: 1em;
+  border-color: black;
+}
